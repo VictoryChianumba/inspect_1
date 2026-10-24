@@ -1,0 +1,11 @@
+[project]
+name = "inspect-p1"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=2.3.0",
+    "control-arena[rogue-eval]",
+]
+
+[tool.uv.sources]
+control-arena = { git = "https://github.com/UKGovernmentBEIS/control-arena.git", rev = "20857c9de7f5e892ab8d9ec8b5fb510a1768b977" }
